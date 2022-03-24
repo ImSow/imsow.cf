@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="post.js" preload></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta content="ImSow.cf" property="og:title" />
+    <meta content="welcome" property="og:description" />
+    <meta content="url" property="og:url" />
+    <meta content="description" name="description" />
+    <meta property="og:image" content="https://cdn.discordapp.com/emojis/803686411370233896.gif?size=96&quality=lossless">
+    <meta content="#52faec" data-react-helmet="true" name="theme-color"/>
+    <link rel="icon" href="https://cdn.discordapp.com/emojis/803686411370233896.gif?size=96&quality=lossless">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/emojis/803686411370233896.gif?size=96&quality=lossless" type="image/gif">
+    
+    <title>imsow.cf</title>	
+</head>
+
+<body>
+    <!--Dicord Like profile card-->
+
+    <!--Images-->
+    <div class="profile animate__animated animate__fadeInUp animate__fast">
+        <div class="banner">
+            <img src="https://media.discordapp.net/attachments/947893488823980062/956651613680984094/sci-fi-space-cyan-stars-wallpaper-preview.jpg" alt="banner">
+        </div>
+        <div class="pfp">
+            <a id="profile__pfp" href="https://discord.com/users/474329232731013162/">
+            </a>
+        </div>
+
+
+        <!--Name and AboutMe-->
+        <div class="profile__content animate__animated animate__fadeInUp animate__fast">
+            <h3 id="profile__name"><span id="profile__discrim" class="profile__tag"></span></h3>
+            <h4 id="profile__status"> <img src="https://cdn.discordapp.com/emojis/803686411370233896.gif?size=96&quality=lossless" alt=""> <span id="profile__status__content"></span></h4>
+            <hr>
+            <p> <span class="aboutme__title"> 25/03  |  13yo</span> <br> <span class="aboutme__text">@lily :)<3 </span> <br> <br> <span class="aboutme__text">a little ghost in a giant world</span></p>
+        </div>
+
+        <!--Social Links-->
+        <div class="socials animate__animated animate__fadeInUp animate__fast">
+            <a target="_blank" href="https://github.com/fuibui/" class="fab fa-github"></a> <!-- github -->
+            <a target="_blank" href="https://soundcloud.com/fullboy/" class="fab fa-twitter"></a> <!-- soundcloud -->
+            <a target="_blank" href="https://steamcommunity.com/id/fubo444/" class="fab fa-steam"></a> <!-- steam -->
+            <a target="_blank" href="https://instagram.com/eu.fubo/" class="fab fa-instagram"></a> <!-- instagram -->
+            <a target="_blank" href="https://discord.gg/Wpj5Kwg3hm" class="fab fa-discord"></a> <!-- instagram -->
+        </div>
+
+        <!--Projects Buttons-->
+        <div class="projects__button">
+            <a href="assets/pages/projects/index.html">Projects</a>
+        </div>
+    </div>
+
+    <audio loop id="mySound" src="assets/audio/vgod.mp3"></audio>
+
+    <div id="post__items"></div>
+
+    <script>
+
+        window.onclick = function() {
+            document.getElementById('mySound').play();
+        }
+    </script>
+
+    
+</body>
+
+</html>
