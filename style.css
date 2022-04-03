@@ -84,7 +84,7 @@ body { /* background*/
 }
 
 #profile__status img{ /* tag settings */
-    vertical-align: middle;
+    vertical-align: top;
     width: 20px;
     height: 20px;
 }
