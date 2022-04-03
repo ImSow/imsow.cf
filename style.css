@@ -27,6 +27,7 @@ body { /* background*/
 hr {
    background-color: #282a2e;
    height: 1px;
+   border: none;
 }
 
 .profile { /* profile strcuture and layot */
