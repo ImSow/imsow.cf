@@ -21,7 +21,7 @@ body { /* background*/
     justify-content: center;
     align-items: center;
     display: flex;
-    background: #18191c;
+    background: #000f0f;
 }
 
 hr {
@@ -33,7 +33,7 @@ hr {
 .profile { /* profile strcuture and layot */
     width: 340px;
     overflow: hidden;
-    background: #202124;
+    background: #18191c;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     display: flex;
