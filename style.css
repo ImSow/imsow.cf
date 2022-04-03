@@ -24,6 +24,10 @@ body { /* background*/
     background: #040a0a;
 }
 
+hr {
+   color: gray;
+}
+
 .profile { /* profile strcuture and layot */
     width: 340px;
     overflow: hidden;
