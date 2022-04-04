@@ -21,19 +21,17 @@ body { /* background*/
     justify-content: center;
     align-items: center;
     display: flex;
-    background: #000f0f;
+    background: #040a0a;
 }
 
 hr {
-   background-color: #282a2e;
-   height: 1px;
-   border: none;
+   color: #3b3c40;
 }
 
 .profile { /* profile strcuture and layot */
     width: 340px;
     overflow: hidden;
-    background: #18191c;
+    background: #202124;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     display: flex;
@@ -58,7 +56,7 @@ hr {
     margin-left: 25px;
     margin-right: auto;
     border-radius: 100px;
-    border: 10px solid #18191c;
+    border: 10px solid #202124;
     transition-duration: 0.4s;
     transition-property: transform;
 }
